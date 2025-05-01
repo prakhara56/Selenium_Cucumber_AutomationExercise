@@ -18,7 +18,7 @@ public class RegisterPage extends BasePage {
     @FindBy(name = "name")
     public WebElement nameBox;
 
-    @FindBy(xpath = "//input[@data-qa='signup-email']")
+    @FindBy(xpath = "//input[@data-qa='signup']")
     public WebElement emailBox;
 
     @FindBy(xpath = "//button[.='Signup']")
